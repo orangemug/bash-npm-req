@@ -1,6 +1,15 @@
 # bash-npm-req
 Require bash scripts the npm way
 
+[![stability-experimental](https://img.shields.io/badge/stability-experimental-orange.svg)][stability]
+[![circleci](https://circleci.com/gh/orangemug/bash-npm-req.png?style=shield)][circleci]
+[![Dependency Status](https://david-dm.org/orangemug/bash-npm-req.svg)][dm-prod]
+[![Dev Dependency Status](https://david-dm.org/orangemug/bash-npm-req/dev-status.svg)][dm-dev]
+
+[stability]: https://github.com/orangemug/stability-badges#experimental
+[circleci]:  https://circleci.com/gh/orangemug/bash-npm-req
+[dm-prod]:   https://david-dm.org/orangemug/bash-npm-req
+[dm-dev]:    https://david-dm.org/orangemug/bash-npm-req#info=devDependencies
 
 ## Install
 Install via npm
