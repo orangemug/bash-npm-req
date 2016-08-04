@@ -1,6 +1,9 @@
 {
   "name": "bash-npm-req",
   "version": "0.0.0",
+  "bin": {
+    "bash-npm-req": "./bin.sh"
+  },
   "dependencies": {
     "resolve": "orangemug/node-resolve#feature/add-main-key-option"
   }
