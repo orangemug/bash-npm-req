@@ -37,7 +37,7 @@ bash-npm-req ./path/to/script.sh
 Or require the `req.sh` directly in the base of your bash module
 
 ```
-source "$(basename "$0")/node_modules/bash-npm-req/req.sh"
+source "$(basename "$BASH_SOURCE")/node_modules/bash-npm-req/req.sh"
 
 # Now require as you would in nodejs
 req "./some/relative/path"

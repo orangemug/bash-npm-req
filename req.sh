@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 __npm_bash_init() {
   req() {
-    local dir="$(dirname "$0")"
+    local dir="$(dirname "$BASH_SOURCE")"
     local caller_path="$(caller | sed 's/^[0-9]*[\ ]*//')"
     local caller_dir="$(dirname $caller_path)"
 
@@ -9,8 +9,8 @@ __npm_bash_init() {
     if [ -n "$filepath" ]; then
       source $filepath
     else
-      echo "Error!"
-      exit 125
+      echo "Failed to source '$1' from '$caller_dir'"
+      exit 1
     fi
   }
 }
