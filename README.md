@@ -33,5 +33,5 @@ bash-npm-req ./path/to/script.sh
 ```
 
 
-## Licesne
+## License
 [MIT](LICENSE)
