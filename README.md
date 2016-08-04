@@ -15,7 +15,7 @@ Require bash scripts the npm way
 Install via npm
 
 ```
-npm install bash-npm-req --save
+npm install orangemug/bash-npm-req --save
 ```
 
 ## Usage
