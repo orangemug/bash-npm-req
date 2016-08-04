@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 source "$(dirname "$BASH_SOURCE")/../req.sh"
 
 req bash-assert
