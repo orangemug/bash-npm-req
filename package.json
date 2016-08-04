@@ -1,0 +1,7 @@
+{
+  "name": "bash-npm-req",
+  "version": "0.0.0",
+  "dependencies": {
+    "resolve": "^1.1.7"
+  }
+}
