@@ -4,7 +4,11 @@
   "bin": {
     "bash-npm-req": "./bin.sh"
   },
+  "scripts": {
+    "test": "./test/index.sh"
+  },
   "dependencies": {
+    "bash-assert": "orangemug/bash-assert",
     "resolve": "orangemug/node-resolve#feature/add-main-key-option"
   }
 }
